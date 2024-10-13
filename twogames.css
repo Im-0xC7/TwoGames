@@ -1,0 +1,96 @@
+/* Main Page */
+
+:root {
+    --primary: #5314ff;
+    --secondary: #e7e7e7;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tabs > ul {
+    padding: 0;
+    text-align: center;
+}
+
+.tabs .trigger {
+    list-style-type: none;
+    padding: 10px;
+    background: var(--secondary);
+    margin: 4px;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabs .trigger.active {
+    background: var(--primary);
+    color: white;
+}
+
+.tabs .content {
+    display: none;
+}
+
+.tabs .content.active {
+    display: block;
+}
+
+h1, h2 {
+    color: var(--primary);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Coin Toss */
+
+button {
+    font-size: 1.3em;
+    padding: 4px;
+}
+
+img {
+    padding-top: 24px;
+}
+
+/* Guessing Game */
+
+input {
+    font-size: 1.2em;
+}
+
+#guessResult {
+    padding: 3px;
+    font-size: xx-large;
+}
+
+.tooBig {
+    background: pink;
+    color: blue;
+}
+
+.tooSmall {
+    background: lightblue;
+    color: blue;
+}
+
+.tooMany {
+    background: red;
+    color: black;
+}
+
+.justRight {
+    background: lightgreen;
+    color: green;
+}
+
+.resetBtn {
+    font-size: x-large;
+}
